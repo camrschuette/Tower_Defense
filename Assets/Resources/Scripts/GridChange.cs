@@ -8,11 +8,11 @@ public class GridChange : MonoBehaviour {
 
 	void changeMat(string type){
 		if (type == "good") {
-				renderer.material = good;
+				GetComponent<Renderer>().material = good;
 		} else if (type == "bad") {
-				renderer.material = bad;
+				GetComponent<Renderer>().material = bad;
 		} else {
-			renderer.material = norm;
+			GetComponent<Renderer>().material = norm;
 		}
 }
 }
