@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 23a31f6cb056b284cba2c497c4311d62
+timeCreated: 1425861896
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cannons_1
+    100004: Cannons_2
+    100006: Cannons_3
+    100008: Cannons_4
+    100010: Cannons_5
+    100012: Cannons_6
+    100014: Cannons_7
+    100016: Cannons_8
+    100018: Directional_Turret_Base
+    400000: //RootNode
+    400002: Cannons_1
+    400004: Cannons_2
+    400006: Cannons_3
+    400008: Cannons_4
+    400010: Cannons_5
+    400012: Cannons_6
+    400014: Cannons_7
+    400016: Cannons_8
+    400018: Directional_Turret_Base
+    2300000: Cannons_1
+    2300002: Cannons_2
+    2300004: Cannons_3
+    2300006: Cannons_4
+    2300008: Cannons_5
+    2300010: Cannons_6
+    2300012: Cannons_7
+    2300014: Cannons_8
+    2300016: Directional_Turret_Base
+    3300000: Cannons_1
+    3300002: Cannons_2
+    3300004: Cannons_3
+    3300006: Cannons_4
+    3300008: Cannons_5
+    3300010: Cannons_6
+    3300012: Cannons_7
+    3300014: Cannons_8
+    3300016: Directional_Turret_Base
+    4300000: Directional_Turret_Base
+    4300002: Cannons_1
+    4300004: Cannons_2
+    4300006: Cannons_3
+    4300008: Cannons_4
+    4300010: Cannons_5
+    4300012: Cannons_6
+    4300014: Cannons_7
+    4300016: Cannons_8
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

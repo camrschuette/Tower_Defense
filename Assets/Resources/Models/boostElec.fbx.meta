@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 2e3a60ddcded4ed40943ee7bdea46a4b
+timeCreated: 1425788156
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCylinder1
+    100004: polySurface2
+    100006: polySurface3
+    100008: polySurface4
+    100010: polySurface5
+    100012: polySurface6
+    100014: polySurface7
+    100016: pPyramid2
+    100018: pPyramid4
+    100020: pPyramid5
+    100022: pPyramid6
+    100024: pPyramid7
+    100026: pPyramid8
+    100028: pSphere1
+    100030: pTorus1
+    100032: pTorus2
+    100034: pTorus3
+    100036: transform10
+    100038: transform3
+    100040: transform4
+    100042: transform5
+    100044: transform6
+    100046: transform7
+    100048: transform8
+    100050: transform9
+    400000: //RootNode
+    400002: pCylinder1
+    400004: polySurface2
+    400006: polySurface3
+    400008: polySurface4
+    400010: polySurface5
+    400012: polySurface6
+    400014: polySurface7
+    400016: pPyramid2
+    400018: pPyramid4
+    400020: pPyramid5
+    400022: pPyramid6
+    400024: pPyramid7
+    400026: pPyramid8
+    400028: pSphere1
+    400030: pTorus1
+    400032: pTorus2
+    400034: pTorus3
+    400036: transform10
+    400038: transform3
+    400040: transform4
+    400042: transform5
+    400044: transform6
+    400046: transform7
+    400048: transform8
+    400050: transform9
+    2300000: polySurface2
+    2300002: polySurface3
+    2300004: polySurface4
+    2300006: polySurface5
+    2300008: polySurface6
+    2300010: polySurface7
+    2300012: pTorus1
+    2300014: pTorus2
+    2300016: pTorus3
+    3300000: polySurface2
+    3300002: polySurface3
+    3300004: polySurface4
+    3300006: polySurface5
+    3300008: polySurface6
+    3300010: polySurface7
+    3300012: pTorus1
+    3300014: pTorus2
+    3300016: pTorus3
+    4300000: polySurface2
+    4300002: polySurface3
+    4300004: polySurface4
+    4300006: polySurface5
+    4300008: polySurface6
+    4300010: polySurface7
+    4300012: pTorus1
+    4300014: pTorus2
+    4300016: pTorus3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
