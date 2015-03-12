@@ -47,14 +47,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Resources\Scripts\Ally Towers\DoubleBarrelTurretController.cs" />
+     <Compile Include="Assets\Resources\Scripts\Ally Towers\directional4.cs" />
+     <Compile Include="Assets\Resources\Scripts\Ally Towers\towerBase.cs" />
      <Compile Include="Assets\Resources\Scripts\Enemy Towers\EnemyBase.cs" />
      <Compile Include="Assets\Resources\Scripts\Enemy Towers\TestEnemy.cs" />
      <Compile Include="Assets\Resources\Scripts\GameStart.cs" />
      <Compile Include="Assets\Resources\Scripts\General Game\GameManager.cs" />
      <Compile Include="Assets\Resources\Scripts\General Game\cameraController.cs" />
-     <Compile Include="Assets\Resources\Scripts\General Game\miniJSON.cs" />
      <Compile Include="Assets\Resources\Scripts\GridChange.cs" />
-     <Compile Include="Assets\Resources\Scripts\Projectiles\BulletMissileController.cs" />
+     <Compile Include="Assets\Resources\Scripts\Projectiles\directionalBullet.cs" />
+     <Compile Include="Assets\Resources\Scripts\Projectiles\turretBullet.cs" />
+     <None Include="Assets\Resources\Maps\hazy lake\Note.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

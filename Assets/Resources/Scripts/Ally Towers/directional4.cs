@@ -19,7 +19,7 @@ public class directional4 : MonoBehaviour {
 		firing = false;
 		temp = false;
 		
-		loadBullet = Resources.Load ("Prefabs/Projectiles/Bullet");
+		loadBullet = Resources.Load ("Prefabs/Projectiles/directionalBullet");
 	}
 	
 	void Update () {

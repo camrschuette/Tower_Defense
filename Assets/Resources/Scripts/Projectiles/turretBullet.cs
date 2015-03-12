@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BulletMissileController : MonoBehaviour {
+public class turretBullet : MonoBehaviour {
 
 	public float speed = 30.0f;
 	
@@ -12,8 +12,6 @@ public class BulletMissileController : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		//transform.Translate(transform.forward * speed * Time.deltaTime);
-		//rb.MovePosition(transform.position + transform.forward * Time.deltaTime * speed);
 		transform.position = Vector3.MoveTowards (transform.position, target.transform.position, speed * Time.deltaTime); 
 	}
 

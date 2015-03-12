@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class DoubleBarrelTurretController : MonoBehaviour {
+public class DoubleBarrelTurretController : towerBase {
 
 	public GameObject shootPos1;
 	public GameObject shootPos2;
@@ -22,6 +22,13 @@ public class DoubleBarrelTurretController : MonoBehaviour {
 		target = null;
 
 		loadBullet = Resources.Load ("Prefabs/Projectiles/Bullet");
+
+		attack_rate = 1.0f;
+		health = 100.0f;
+		max_Health = 100.0f;
+		type = "turret";
+		num = 2;
+		upgradable = true;
 	}
 
 	void Update () {
@@ -68,7 +75,7 @@ public class DoubleBarrelTurretController : MonoBehaviour {
 	private IEnumerator fire(){
 		firing = false;
 
-		yield return StartCoroutine (wait (1.0f));
+		yield return StartCoroutine (wait (attack_rate));
 
 		if (target != null) {
 			GameObject bullet = Instantiate (loadBullet, shootPos1.transform.position, shootPos1.transform.rotation) as GameObject;
