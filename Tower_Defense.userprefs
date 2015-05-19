@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\General Game\cameraController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\Projectiles\GreatZeuslightingmaker.cs">
     <Files>
-      <File FileName="Assets\Resources\Scripts\General Game\GameManager.cs" Line="27" Column="136" />
-      <File FileName="Assets\Resources\Scripts\General Game\cameraController.cs" Line="15" Column="30" />
+      <File FileName="Assets\Resources\Scripts\Projectiles\Lightning.cs" Line="17" Column="28" />
+      <File FileName="Assets\Resources\Scripts\Projectiles\GreatZeuslightingmaker.cs" Line="24" Column="3" />
+      <File FileName="Assets\Resources\Scripts\Enemy Towers\EnemyBase.cs" Line="6" Column="8" />
+      <File FileName="Assets\Resources\Scripts\Enemy Towers\TestEnemy.cs" Line="15" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

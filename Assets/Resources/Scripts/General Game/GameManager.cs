@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour {
 
 	public void ally_upgrade(ArrayList arr){
 		string name = arr[0].ToString();
-		int num = (int) arr[1];
+		int num = (int) arr[1] + 1;
 		Vector3 pos = (Vector3) arr[2];
 		Quaternion rot = (Quaternion) arr[3];
 

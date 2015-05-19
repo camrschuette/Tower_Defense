@@ -33,4 +33,18 @@ public class towerBase : MonoBehaviour {
 
 		gm.SendMessage("ally_upgrade", a);
 	}
+
+	public virtual void take_Damage(float amt){
+		health = health - amt;
+
+		if (health <= 0.0f) {
+			health = 0.0f;
+			Destroy(gameObject); //for right now we will just destroy the gameobject
+		}
+	}
+
+	public void boost(float percent){
+		attack = attack + (attack * percent);
+		defense = defense + (defense * percent);
+	}
 }

@@ -3,24 +3,25 @@ using System.Collections;
 
 public class EnemyBase : MonoBehaviour {
 
-	private float health;
-	private float max_health;
+	public float health;
+	protected float max_health;
 
-	private float attack;
-	private float attack_rate;
+	protected float attack;
+	protected float attack_rate;
 
-	private float defense;
+	protected float defense;
 
-	private float rotation_rate;
+	protected float rotation_rate;
 
-	private float speed;
+	protected float speed;
 
 
-	void Start () {
-	
-	}
-
-	void Update () {
-	
+	public void take_Damage(float amt){
+		health = health - amt;
+		
+		if (health <= 0.0f) {
+			health = 0.0f;
+			Destroy(gameObject); //for right now we will just destroy the gameobject
+		}
 	}
 }

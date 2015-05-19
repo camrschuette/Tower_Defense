@@ -24,6 +24,7 @@ public class DoubleBarrelTurretController : towerBase {
 		loadBullet = Resources.Load ("Prefabs/Projectiles/Bullet");
 
 		attack_rate = 1.0f;
+		attack = 25.0f;
 		health = 100.0f;
 		max_Health = 100.0f;
 		type = "turret";
@@ -47,6 +48,8 @@ public class DoubleBarrelTurretController : towerBase {
 		if (enemies.Count <= 0 && !firing && !temp) {
 			target = null;
 		}
+
+		Debug.Log (attack);
 	}
 
 	void OnTriggerEnter(Collider c){
@@ -79,9 +82,15 @@ public class DoubleBarrelTurretController : towerBase {
 
 		if (target != null) {
 			GameObject bullet = Instantiate (loadBullet, shootPos1.transform.position, shootPos1.transform.rotation) as GameObject;
+			bullet.SendMessage ("set_damage", attack);
 			bullet.SendMessage ("set_target", target);
+			bullet.transform.parent = transform;
+
 			bullet = Instantiate (loadBullet, shootPos2.transform.position, shootPos2.transform.rotation) as GameObject;
+			bullet.SendMessage ("set_damage", attack);
 			bullet.SendMessage ("set_target", target);
+			bullet.transform.parent = transform;
+
 			bullet = null;
 		}
 
@@ -101,6 +110,10 @@ public class DoubleBarrelTurretController : towerBase {
 
 		rotPoint.transform.rotation = new Quaternion (rotPoint.transform.rotation.x, tmp.y, rotPoint.transform.rotation.z, rotPoint.transform.rotation.w);
 
+	}
+
+	public void remove_enemy(GameObject go){
+		enemies.Remove (go);
 	}
 
 }
